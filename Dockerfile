@@ -21,4 +21,4 @@ RUN apk add docker
 RUN rc-update add docker boot
 
 #Add angular cli
-RUN npm install -g @angular/cli@7.3.6s
+RUN npm install -g @angular/cli@7.3.6
