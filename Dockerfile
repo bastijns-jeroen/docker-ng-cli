@@ -1,5 +1,8 @@
 FROM node:lts-alpine
 
+#Add git
+RUN apk add git
+
 #Install chromium
 RUN \
   echo "http://dl-cdn.alpinelinux.org/alpine/edge/community" >> /etc/apk/repositories \
