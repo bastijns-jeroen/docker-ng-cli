@@ -1,7 +1,7 @@
 FROM node:lts-alpine
 
-#Add git
-RUN apk add git
+#Add git, bash
+RUN apk add git bash
 
 #Install chromium
 RUN \
